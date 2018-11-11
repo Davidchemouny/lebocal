@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, 
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+header {
+	padding: 10px;
+}
+
+img {
+	width: 700px;
+	height: auto;
+	margin-left: 250px;
+	}
+
+
+	footer {
+		padding: 10px 20px;
+		background-color: #677179;
+		color: white;
+		vertical-align: middle;
+
+	}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	background: #677179;
+
+}
+
+.style-logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 125px;
+}
+
+.style-nav ul {
+	list-style-type: none;
+	font-family: Impact
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	text-transform: uppercase;
+	padding: 8px;
+}
+
+.hero {
+	background-image: url(food-photography-tips-photojaanic-3-1-1080x720.jpg);
+	background-size: cover;
+	padding: 20px 20px 50px 20px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+
+}
+
+.footer-text {
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+
+.col {
+	width: 100%;
+
+}
+
+.ENTETE:before, .ENTETE:after {
+	content: "";
+	display: table;
+}
+
+.ENTETE:after {
+	clear: both;
+}
+
+/*Tablette Vue*/
+
+@media (min-width: 768px){
+	
+	body {
+		max-width: 778px;
+	}
+	
+	.style-nav ul li {
+		display: inline-block;
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
+	
+	h1 {
+		font-size: 100px;
+		margin-bottom: 90px;
+	}
+	
+	h2 {
+		margin-bottom: 16px;
+	}
+	
+	.col-md-one-half {
+		width: 50%;
+	}
+	
+	.col {
+		float: left;
+		padding: 0px 7px 14px;
+	}
+}
+
+/*Desktop View*/
+
+@media (min-width: 1024px){
+	
+	body {
+		max-width: 1200px;
+	}
+	
+	.style-logo {
+		float: left;
+	}
+	
+	.style-nav {
+		float: right;
+	}
+	
+	.col-lg-one-fourth {
+		width: 25%;
+	}
+}
