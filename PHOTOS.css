@@ -60,7 +60,7 @@ footer {
 	text-align:center;
 }
 .GALERIE img{
-	width: 700px;
+	width: 500px;
 	padding: 5px;
 	filter: grayscale(70%);
 	transition: 1s;
